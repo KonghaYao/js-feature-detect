@@ -1,0 +1,31 @@
+{
+  "name": "js-feature-detect",
+  "version": "1.0.0",
+  "description": "A lightweight library to detect support for specific JavaScript features, CSS properties, and ECMAScript versions in the browser.",
+  "main": "./dist/js-feature-detect.mjs",
+  "browser": "./dist/js-feature-detect.umd.js",
+  "types": "./src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonghaYao/js-feature-detect.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "prepublish": "pnpm build"
+  },
+  "keywords": [
+    "feature detection",
+    "javascript",
+    "css",
+    "ecmascript",
+    "browser support"
+  ],
+  "author": "KonghaYao",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.8"
+  }
+}
