@@ -1,6 +1,6 @@
 {
   "name": "js-feature-detect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A lightweight library to detect support for specific JavaScript features, CSS properties, and ECMAScript versions in the browser.",
   "main": "./dist/js-feature-detect.mjs",
   "module": "./dist/js-feature-detect.mjs",

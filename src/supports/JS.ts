@@ -9,9 +9,10 @@ export const supportURLSearchParams: Rule = {
   tags: ["es6"],
 };
 
+/** 屏蔽，由于 import.meta.url 会被写没，所以不准确 */
 export const supportImportMeta: Rule = {
   name: "ImportMeta",
-  dectect: () => typeof import.meta.url === "string",
+  dectect: () => true,
   tags: ["es6"],
 };
 
